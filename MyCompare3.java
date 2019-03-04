@@ -13,6 +13,7 @@ public class MyCompare3 {
 		dogs.add(new Dog("Alfie", 4));
 
 		System.out.println(dogs);
+		
 		Collections.sort(dogs, new Comparator<Animal>(){
 			@Override
 			public int compare(Animal a, Animal b){
